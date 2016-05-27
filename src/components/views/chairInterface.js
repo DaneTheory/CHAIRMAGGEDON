@@ -1,3 +1,6 @@
+/*===============================================
+          INTERFACE FOR CHAIR COMPONENTS
+=================================================*/
 import Paper  from 'material-ui/Paper'
 import React, { PropTypes, Component } from 'react'
 import RunApp  from './RunApp'
@@ -15,6 +18,7 @@ const style = {
   overflow: 'scroll'
 };
 
+// Basic Main Wrapper For Chair UI
 const ChairInterface = (props) => {
   return (
     <div>

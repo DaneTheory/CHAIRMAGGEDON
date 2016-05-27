@@ -1,3 +1,6 @@
+/*===============================================
+          INTIAL STATE FOR MENU REDUCER
+=================================================*/
 export default {
     chairs: [],
     open: false,

@@ -1,6 +1,10 @@
-import React from 'react';
-import { Link } from 'react-router';
+/*===============================================
+              404 PAGE FOR ROUTER
+=================================================*/
+import React  from 'react'
+import { Link } from 'react-router'
 
+// A 404 Page For User Navigation Error.
 const NotFoundPage = () => {
   return (
     <div>

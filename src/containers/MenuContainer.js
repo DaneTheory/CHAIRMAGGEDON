@@ -1,3 +1,7 @@
+/*===============================================
+                MENU CONTAINER
+              **Smart Component**
+=================================================*/
 import React  from 'react'
 import { connect } from 'react-redux'
 import { getChairsSuccess, toggleOpen } from '../actions/menuActions'
@@ -5,7 +9,9 @@ import AppBarIconMenu  from '../components/menuBar/menu'
 import { store } from '../mainIndex'
 import MainContainer  from './MainContainer'
 
-
+// Primary Wrapper For Menu Content Components.
+// TODO: Abstract MainContainer Out Of Here
+//       Into Its Own "Smart Component".
 const MenuContainer = React.createClass({
   componentWillMount: function() {
     store.dispatch(getChairsSuccess([], 100));

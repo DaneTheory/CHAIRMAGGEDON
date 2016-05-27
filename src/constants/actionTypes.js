@@ -1,3 +1,7 @@
+/*===============================================
+                ACTION CONSTANTS
+=================================================*/
+
 // Open Boolean Toggle
 export const TOGGLE_OPEN = 'TOGGLE_OPEN';
 

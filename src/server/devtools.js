@@ -1,6 +1,10 @@
-import React  from 'react';
-import { render } from 'react-dom';
-import DevTools  from '../assets/Devtool';
+/*===============================================
+          SERVER SIDE DEVTOOLS RENDER
+                    **WIP**
+=================================================*/
+import React  from 'react'
+import { render } from 'react-dom'
+import DevTools  from '../assets/Devtool'
 
 export default function createDevToolsWindow(store) {
   // const popup = window.open(null, 'Redux DevTools', 'menubar=no,location=no,resizable=yes,scrollbars=no,status=no');

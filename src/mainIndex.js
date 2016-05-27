@@ -1,3 +1,6 @@
+/*===============================================
+    PRIMARY ENTRY POINT FOR REDUX AND REACT APP
+=================================================*/
 /* eslint-disable import/default */
 import React  from 'react'
 import { render } from 'react-dom'

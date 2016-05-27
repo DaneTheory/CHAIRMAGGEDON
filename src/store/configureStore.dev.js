@@ -1,5 +1,13 @@
+/*===============================================
+                STORE CONFIG FOR DEV
+                **Runs when ENV is set
+                to 'development'.
+=================================================*/
 /* eslint-disable */
 import { applyMiddleware, createStore, compose } from 'redux'
+import Devtool  from '../../../boilerplate9/src/assets/Devtool.js'
+import * as types  from '../constants/actionTypes'
+import rootReducer  from '../reducers'
 // import Debug  from 'redux-debug'
 // import logger  from 'redux-diff-logger'
 // import faviconMiddleware  from 'redux-favicon'
@@ -9,9 +17,7 @@ import { applyMiddleware, createStore, compose } from 'redux'
 // import soundsMiddleware  from 'redux-sounds'
 // import thunk  from 'redux-thunk'
 // import reduxUnhandledAction  from 'redux-unhandled-action'
-import * as types  from '../constants/actionTypes'
-import rootReducer  from '../reducers'
-/* eslint-enable */
+@replaceMe@/* eslint-enable */
 
 // const freeze = require('redux-freeze');
 // const immutableInvariant = require('redux-immutable-state-invariant')();

@@ -1,3 +1,6 @@
+/*===============================================
+          PRIMARY ROUTER CONFIG FOR APP
+=================================================*/
 /* eslint-disable */
 import React  from 'react'
 import { Route, IndexRoute } from 'react-router'

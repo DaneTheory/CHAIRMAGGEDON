@@ -1,8 +1,11 @@
+/*===============================================
+                CHAIR LIST COMPONENT
+=================================================*/
 import ActionEventSeat  from 'material-ui/svg-icons/action/event-seat'
 import React  from 'react'
 import ReactCSSTransitionGroup  from 'react-addons-css-transition-group'
 
-
+// Pure Stateless Component To Render Out Chairs As List Items.
 export default function(props) {
   return (
     <div>

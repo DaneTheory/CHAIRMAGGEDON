@@ -1,3 +1,6 @@
+/*===============================================
+          TEST APPBAR STYLES AND BUILD
+=================================================*/
 import AppBar  from 'material-ui/AppBar'
 import IconButton  from 'material-ui/IconButton'
 import IconMenu  from 'material-ui/IconMenu'

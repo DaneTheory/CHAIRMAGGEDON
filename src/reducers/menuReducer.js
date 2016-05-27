@@ -1,7 +1,9 @@
+/*===============================================
+                MENU REDUCER
+=================================================*/
 import * as types  from '../constants/actionTypes'
 import store  from '../store/configureStore'
 import initialMenuState  from './initialMenuState'
-
 
 
 export const menuReducer = function(state = initialMenuState, action) {

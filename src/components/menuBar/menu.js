@@ -1,3 +1,6 @@
+/*===============================================
+                TOP NAV/APP BAR
+=================================================*/
 import AppBar  from 'material-ui/AppBar'
 import Drawer  from 'material-ui/Drawer'
 import IconButton  from 'material-ui/IconButton'
@@ -34,6 +37,7 @@ const styles = {
   }
 };
 
+// Top Menu Bar And Off-Canvas Menu
 class AppBarIconMenu extends Component {
 
   constructor(props) {

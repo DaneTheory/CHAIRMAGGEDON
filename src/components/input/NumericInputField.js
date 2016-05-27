@@ -1,3 +1,7 @@
+/*===============================================
+                PRIMARY INPUT FIELD
+                **type: Number
+=================================================*/
 import TextField  from 'material-ui/TextField'
 import React, { PropTypes } from 'react'
 
@@ -18,7 +22,7 @@ const styles = {
   }
 };
 
-
+// Simple Input Component Used To Build Chairs Display Based On User Input.
 const NumericInputField = (props) => {
   const handleChange = (e) => {
     props.onChange(e.target.value);
@@ -35,6 +39,7 @@ const NumericInputField = (props) => {
   );
 };
 
+// TODO: Better Validation For Form Input.
 NumericInputField.propTypes = {
   value: PropTypes.oneOfType([
     PropTypes.number

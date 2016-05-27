@@ -1,3 +1,6 @@
+/*===============================================
+        BUSINESS LOGIC FOR CHAIR COMPONENT
+=================================================*/
 import RaisedButton  from 'material-ui/RaisedButton'
 import ActionAutorenew  from 'material-ui/svg-icons/action/autorenew'
 import ActionEventSeat  from 'material-ui/svg-icons/action/event-seat'
@@ -25,7 +28,8 @@ const button2 = {
   right: 0
 }
 
-
+// Buttons That Create New Chair UI Based On User Input.
+// Submit And Reset Button Created Here.
 class RunApp extends React.Component {
 
   handleClick(e){
