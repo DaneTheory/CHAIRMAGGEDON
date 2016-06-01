@@ -5,7 +5,7 @@
 =================================================*/
 /* eslint-disable */
 import { applyMiddleware, createStore, compose } from 'redux'
-import Devtool  from '../../../boilerplate9/src/assets/Devtool.js'
+//import Devtool  from '../../../boilerplate9/src/assets/Devtool.js'
 import * as types  from '../constants/actionTypes'
 import rootReducer  from '../reducers'
 // import Debug  from 'redux-debug'
@@ -17,7 +17,7 @@ import rootReducer  from '../reducers'
 // import soundsMiddleware  from 'redux-sounds'
 // import thunk  from 'redux-thunk'
 // import reduxUnhandledAction  from 'redux-unhandled-action'
-@replaceMe@/* eslint-enable */
+/* eslint-enable */
 
 // const freeze = require('redux-freeze');
 // const immutableInvariant = require('redux-immutable-state-invariant')();
